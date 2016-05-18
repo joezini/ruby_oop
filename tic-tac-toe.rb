@@ -52,6 +52,7 @@ class Game
 end
 
 class Board
+	attr_reader :layout
 	# stores board
 	def initialize
 		@layout = [[' ',' ',' '],
@@ -171,4 +172,4 @@ class Player
 	# asks for moves on CL and passes them to game (or would board be better?)
 end
 
-my_game = Game.new
+#my_game = Game.new
